@@ -4,9 +4,6 @@ const aoc2025 = @import("aoc2025");
 const stdIn = std.Io.File.stdin();
 const stdOut = std.Io.File.stdout();
 
-// https://pedropark99.github.io/zig-book/Chapters/12-file-op.html#the-standard-input
-// https://zig.guide/language-basics/while-loops
-
 fn part1() !void {
     // Read from `stdin` all the lines
     var reader_buffer: [1024]u8 = undefined;
