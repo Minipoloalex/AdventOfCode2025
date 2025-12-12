@@ -1,5 +1,3 @@
-
-
 def solve_part1(lines: list[str], start_index: int) -> int:
     lasers = {start_index}
 
@@ -46,6 +44,7 @@ def parse_input() -> list[str]:
         if line == "":
             break
         lines.append(line)
+    return lines
 
 if __name__ == "__main__":
     # Start by parsing the input
